@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>example_package</name>
+  <version>0.0.0</version>
+  <description>The example_package package</description>
+
+  <!-- Maintainer, Author, License -->
+  <maintainer email="davide.ferrari95@unimore.it">Davide Ferrari</maintainer>
+  <author email="davide.ferrari95@unimore.it">Davide Ferrari</author>
+  <license>BSD-3</license>
+
+  <!-- Build Dependancies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <!-- ROS Dependancies -->
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>actionlib</depend>
+
+  <!-- Message Dependancies -->
+  <depend>std_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <!-- External Libraries Dependancies -->
+  <depend>eigen</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning_interface</depend>
+
+  <!-- Others Packages Dependancies -->
+
+</package>
